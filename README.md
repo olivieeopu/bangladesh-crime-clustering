@@ -73,7 +73,7 @@ Notebook menetapkan **K = 3** sebagai kompromi untuk interpretasi. Pilihan ini t
 
 PCA digunakan untuk memproyeksikan 91 fitur yang sudah distandardisasi ke dua komponen untuk visualisasi. K-Means tetap dilatih pada fitur hasil scaling, bukan hanya dua komponen PCA.
 
-![Uploading Screenshot 2026-09-29 at 15.20.32.png…]()
+<img width="598" height="470" alt="Screenshot 2026-09-29 at 15 21 17" src="https://github.com/user-attachments/assets/b37b9baf-25dc-4b96-9e00-4a196f114c29" />
 
 Jarak dan overlap pada proyeksi dua dimensi tidak menggambarkan seluruh struktur ruang fitur. Proporsi explained variance PCA belum dilaporkan dalam notebook.
 
