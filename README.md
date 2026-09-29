@@ -64,9 +64,8 @@ K-Means dicoba pada **K = 2–7** dengan `random_state=42` menggunakan dua ukura
 | Inertia / Elbow Method | Mengukur jumlah kuadrat jarak observasi ke centroid; penambahan cluster biasanya menurunkannya |
 | Silhouette Score | Mengukur kedekatan observasi dengan cluster sendiri dibanding cluster lain; lebih tinggi menunjukkan pemisahan lebih baik menurut ukuran ini |
 
-![Elbow Method](assets/elbow-method.png)
-
-![Silhouette Analysis](assets/silhouette-analysis.png)
+<img width="566" height="390" alt="Screenshot 2026-09-29 at 15 19 59" src="https://github.com/user-attachments/assets/8c203f60-3389-4218-9b4e-2c6eebb1476c" />
+<img width="566" height="386" alt="Screenshot 2026-09-29 at 15 20 16" src="https://github.com/user-attachments/assets/b5189885-9e72-410c-80bd-914603748098" />
 
 Notebook menetapkan **K = 3** sebagai kompromi untuk interpretasi. Pilihan ini tidak dilaporkan sebagai K yang memaksimalkan silhouette. Narasi notebook menyebut elbow sekitar K = 5 dan silhouette cenderung meningkat pada K yang lebih besar. Tabel nilai metrik per K belum disimpan sebagai output numerik.
 
@@ -74,7 +73,7 @@ Notebook menetapkan **K = 3** sebagai kompromi untuk interpretasi. Pilihan ini t
 
 PCA digunakan untuk memproyeksikan 91 fitur yang sudah distandardisasi ke dua komponen untuk visualisasi. K-Means tetap dilatih pada fitur hasil scaling, bukan hanya dua komponen PCA.
 
-![Visualisasi cluster menggunakan PCA](assets/pca-clusters.png)
+![Uploading Screenshot 2026-09-29 at 15.20.32.png…]()
 
 Jarak dan overlap pada proyeksi dua dimensi tidak menggambarkan seluruh struktur ruang fitur. Proporsi explained variance PCA belum dilaporkan dalam notebook.
 
